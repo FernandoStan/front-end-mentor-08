@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="container">
+
+
+    <div id="bgColor"></div>
+    
+    <div class="header">
+      <img src="images/logo.svg" alt="Logo">
+
+      <ul>
+        <li>PRODUCT</li>
+        <li>FEATURES</li>
+        <li>PRICING</li>
+        <li><div id="elipse"></div></li>
+        <li id="login">LOGIN</li>
+      </ul>
+
+      <div id="burguer" style="position: absolute; opacity: 0; visibility: hidden;">
+        <img id="img" onclick="mostrar()" src="images/icon-hamburger.svg" alt="Hamburguer">
+      </div>
+    </div>
+
+    <div class="flex-mobile">
+
+      <ul style="position: absolute; opacity: 0; visibility: hidden;" id="menuMobile">
+        <li>PRODUCT</li>
+        <li>FEATURES</li>
+        <li>PRICING</li>
+        <li id="loginMobile">LOGIN</li>
+      </ul>
+
+  </div>
+
+    <img style="position: absolute; opacity: 0; visibility: hidden;" src="images/illustration-devices.svg" alt="Bg" id="bg">
+
+    <div class="container-text">
+
+      <span id="new">NEW</span>
+      <span> M O N O G R A P H <strong>D A S H B O A R D</strong></span>
+      
+      <h2>POWERFUL INSIGHTS <br /> INTO YOUR TEAM</h2>
+      <p>Project planning and time tracking <br /> for agile teams</p>
+
+      <div class="btn">
+        <a href="">SCHEDULE A DEMO</a>
+        <a id="preview" href="">TO SEE A PREVIEW</a>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
